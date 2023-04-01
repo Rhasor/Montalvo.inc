@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.top-bar,
+.intro,
+.section,
+.message,
+.contact,
+footer {
+    padding: 10px;
+    flex: 1;
+}
+/*img*/
+
+.intro img{
+    height: 250px;
+    width: auto;
+    border-radius: 30px;
+
+}
+
+.mtto img,
+.proy img,
+.inst img{
+    height: 250px;
+    width: auto;
+    border-radius: 30px;
+}
+
+/* body */
+
+
+
+.top-bar {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.list {
+    flex: 1;
+    display: flex;
+}   
+.list p{
+    flex: 1;
+}
+
+
+
+
+
+.intro {
+    background-color: #E5E7EB;
+    padding: 80px;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro l1,
+.intro p,
+.container-intro {
+    display: 1;
+}
+
+.intro l1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.container-intro {
+    text-align: center;
+}
+
+
+
+
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+}
+
+.section l1{
+    flex: 1;
+    font-size: 24px;
+    padding: 30px;
+
+}
+
+.section-option {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.mtto,
+.proy,
+.inst {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+.message {
+    background-color: #E5E7EB;
+    padding: 80px;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+footer,
+.contact {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.contact l1 {
+    font-size: 24px;
+    padding: 30px;
+}
+
+footer {
+    font-size: 12px;
+}
+
